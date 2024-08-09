@@ -3,7 +3,7 @@ import Header from "./components/Header"
 import { useCart } from './hooks/useCart'
 
 function App() {
-
+//master
   const { data, cart, addToCart, removeFromCart, decreaseQuantity, increaseQuantity, clearCart, isEmpty, cartTotal } = useCart()
 
   return (
